@@ -97,3 +97,11 @@
     background-position: center;
     background-size: cover;
 }
+
+/*Carousel items*/
+.item {
+    background-color: red;
+    height: 400px;
+
+    /*background-height:400px; */
+}

@@ -66,6 +66,29 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="img\clean.jpg" />
+    <Content Include="img\closeup.jpg" />
+    <Content Include="img\closeup2.jpg" />
+    <Content Include="img\closeup3.jpg" />
+    <Content Include="img\kaffemaskin.jpg" />
+    <Content Include="img\kitchen.jpg" />
+    <Content Include="img\map.jpg" />
+    <Content Include="img\office1.jpg" />
+    <Content Include="img\office2.jpg" />
+    <Content Include="img\office3.jpg" />
+    <Content Include="img\office4.jpg" />
+    <Content Include="img\office5.jpg" />
+    <Content Include="img\office6.jpg" />
+    <Content Include="img\office7.jpg" />
+    <Content Include="img\office8.jpg" />
+    <Content Include="img\presentation.jpg" />
+    <Content Include="img\presentation2.jpg" />
+    <Content Include="img\presentation3.jpg" />
+    <Content Include="img\presentation4.jpg" />
+    <Content Include="img\Scrumboard.jpg" />
+    <Content Include="img\Scrumboard2.jpg" />
+    <Content Include="img\Sofa.jpg" />
+    <Content Include="img\stebraCoffee.jpg" />
     <Content Include="packages.config" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
