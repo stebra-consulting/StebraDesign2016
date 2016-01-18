@@ -16,11 +16,11 @@
   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-    <header id="grad" class="hidden-xs" <!--style="background-image: url('fonts/225086b.png'); background-attachment: fixed; background-position: center center; background-repeat: no-repeat; background-size: cover; min-height: 224px;-->">
+    <header id="grad" class="hidden-xs" <!--style="background-image: url('img/225086b.png'); background-attachment: fixed; background-position: center center; background-repeat: no-repeat; background-size: cover; min-height: 224px;-->">
         <div class="container" style="padding-top:5px;padding-bottom:5px">
-            <img src="fonts/stebra_logo_black.png" width="190" height="80" />
+            <img src="img/stebra_logo_black.png" width="190" height="80" />
         </div>
-        <!--<img src="fonts/225086b.png" width="646" height="224" />-->
+        <!--<img src="img/225086b.png" width="646" height="224" />-->
     </header>
 
     <nav id="grad2" class="navbar navbar-default" data-spy="affix" data-offset-top="90" style="z-index:100; border-top:none; border-left:none; border-right:none; border-top-left-radius:0; border-top-right-radius:0">
@@ -39,9 +39,9 @@
 
             <div class="collapse navbar-collapse navbar-right" id="bs-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="#">content</a></li>
-                    <li><a href="#">content</a></li>
-                    <li><a href="#">content</a></li>
+                    <li><a href="#about">Om oss</a></li>
+                    <li><a href="#">Apps</a></li>
+                    <li><a href="#">Vad vi har att erbjuda</a></li>
                 </ul>
             </div>
         </div>
@@ -57,7 +57,7 @@
                 <li data-target="#topCarousel" data-slide-to="4"></li>
             </ol>
             <div class="carousel-inner">
-                <div class="item active" style="background-color: red; background-image: url('fonts/1648100.jpg'); height: 400px">
+                <div class="item active" style="background-color: red; background-image: url('img/1648100.jpg'); height: 400px">
                     <div class="carousel-caption" style="background-color:white; opacity:0.5; bottom:30%;">
                         <div class="col-xs-12">
                             <h3 style="color:black">stuff1</h3>
@@ -114,7 +114,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="about">
         <div class="container">
             <div class="row">
                 <h1>Om Stebra</h1>
@@ -128,38 +128,38 @@
         </div>
     </section>
     
-    <section style="background-image: url('fonts/slider-img3.png'); background-attachment:fixed; background-position:center center; background-repeat:no-repeat; background-size:cover; min-height:500px;">
+    <section style="background-image: url('img/slider-img3.png'); background-attachment:fixed; background-position:center center; background-repeat:no-repeat; background-size:cover; min-height:500px;">
     </section>
 
     <section>
         <div class="container">
-            <img src="fonts/bertil.jpg" />
-            <img src="fonts/hasselito.jpg" />
+            <img src="img/bertil.jpg" />
+            <img src="img/hasselito.jpg" />
         </div>
     </section>
 
-    <section style="background-image: url('fonts/040113workingtogether.jpg'); background-attachment: fixed; background-position: center center; background-repeat: no-repeat; background-size: cover; min-height: 500px;"></section>
+    <section style="background-image: url('img/040113workingtogether.jpg'); background-attachment: fixed; background-position: center center; background-repeat: no-repeat; background-size: cover; min-height: 500px;"></section>
 
     <section id="home-areas">
         <div class="container">
             <div class="col-sm-4 col-xs-12">
                 <a href="#">
-                    <img src="fonts/bild1.jpg" width="338" height="338" class="img-responsive" />
-                    <img src="fonts/tint.png" width="338" height="338" class="tint hidden-xs" />
+                    <img src="img/bild1.jpg" width="338" height="338" class="img-responsive" />
+                    <img src="img/tint.png" width="338" height="338" class="tint hidden-xs" />
                 </a>
             </div>
 
             <div class="col-sm-4 col-xs-12">
                 <a href="#">
-                    <img src="fonts/bild2.jpg" width="338" height="338" class="img-responsive" />
-                    <img src="fonts/tint.png" width="338" height="338" class="tint hidden-xs" />
+                    <img src="img/bild2.jpg" width="338" height="338" class="img-responsive" />
+                    <img src="img/tint.png" width="338" height="338" class="tint hidden-xs" />
                 </a>
             </div>
 
             <div class="col-sm-4 col-xs-12">
                 <a href="#">
-                    <img src="fonts/bild3.png" width="338" height="338" class="img-responsive" />
-                    <img src="fonts/tint.png" width="338" height="338" class="tint hidden-xs" />
+                    <img src="img/bild3.png" width="338" height="338" class="img-responsive" />
+                    <img src="img/tint.png" width="338" height="338" class="tint hidden-xs" />
                 </a>
             </div>
             <h1>Random Stuff</h1>
@@ -201,7 +201,7 @@
     </nav>-->
     <footer id="grad3">
         <div class="container" style="padding-top:5px;padding-bottom:5px">
-            <img src="fonts/stebra_logo_black.png" width="190" height="80" />
+            <img src="img/stebra_logo_black.png" width="190" height="80" />
             <div class="fb-like" data-href="https://www.facebook.com/stebraconsulting/" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
         </div>
     </footer>
@@ -214,7 +214,7 @@
             if($(this).scrollTop() > 90){
                 if ($('nav').hasClass('affix')) {
                     $('#navlogo').html('');
-                    $('#navlogo').append('<img src="fonts/stebra_logo_black.png" width="95" height="40" />');
+                    $('#navlogo').append('<img src="img/stebra_logo_black.png" width="95" height="40" />');
                     $('#navlogo').addClass('moveme');
                 }
             }
