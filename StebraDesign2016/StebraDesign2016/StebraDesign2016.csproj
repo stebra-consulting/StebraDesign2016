@@ -66,13 +66,17 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="img\alle.jpg" />
     <Content Include="img\clean.jpg" />
     <Content Include="img\closeup.jpg" />
     <Content Include="img\closeup2.jpg" />
     <Content Include="img\closeup3.jpg" />
+    <Content Include="img\felix.jpg" />
+    <Content Include="img\gauge2.png" />
     <Content Include="img\kaffemaskin.jpg" />
     <Content Include="img\kitchen.jpg" />
     <Content Include="img\map.jpg" />
+    <Content Include="img\matilda.jpg" />
     <Content Include="img\office1.jpg" />
     <Content Include="img\office2.jpg" />
     <Content Include="img\office3.jpg" />
@@ -87,6 +91,7 @@
     <Content Include="img\presentation4.jpg" />
     <Content Include="img\Scrumboard.jpg" />
     <Content Include="img\Scrumboard2.jpg" />
+    <Content Include="img\simon.jpg" />
     <Content Include="img\Sofa.jpg" />
     <Content Include="img\stebraCoffee.jpg" />
     <Content Include="packages.config" />

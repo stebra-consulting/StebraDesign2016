@@ -2,35 +2,35 @@
 }
 
 #grad {
-    background: red; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#000000, #800000); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#000000, #800000); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#000000, #800000); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#000000, #800000); /* Standard syntax */
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ffffff, #a6a6a6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ffffff, #a6a6a6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ffffff, #a6a6a6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ffffff, #a6a6a6); /* Standard syntax */
 }
 
 #grad2 {
-    background: red; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#800000, #FF0000); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#800000, #FF0000); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#800000, #FF0000); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#800000, #FF0000); /* Standard syntax */
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#a6a6a6, #f2f2f2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#a6a6a6, #f2f2f2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#a6a6a6, #f2f2f2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#a6a6a6, #f2f2f2); /* Standard syntax */
 }
 
 #grad3 {
-    background: red; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#800000, #000000); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#800000, #000000); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#800000, #000000); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#800000, #000000); /* Standard syntax */
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#a6a6a6, #ffffff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#a6a6a6, #ffffff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#a6a6a6, #ffffff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#a6a6a6, #ffffff); /* Standard syntax */
 }
 
 #grad4 {
-    background: red; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#FF0000, #800000); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#FF0000, #800000); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#FF0000, #800000); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#FF0000, #800000); /* Standard syntax */
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#f2f2f2, #a6a6a6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f2f2f2, #a6a6a6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f2f2f2, #a6a6a6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f2f2f2, #a6a6a6); /* Standard syntax */
 }
 
 .affix {
@@ -98,10 +98,23 @@
     background-size: cover;
 }
 
-/*Carousel items*/
+/*Carousel slide, background image*/
 .item {
-    background-color: red;
+    background-color: white;
     height: 400px;
+    background-size: cover;
 
     /*background-height:400px; */
+}
+
+/*Carousel slide, white box*/
+.carousel-caption {
+    background-color:white; 
+    opacity:0.5; 
+    bottom:30%;
+}
+
+.portrait {
+    width:300px;
+    height:300px;
 }
